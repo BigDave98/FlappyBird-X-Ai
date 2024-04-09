@@ -11,9 +11,13 @@ The artificial intelligence was trained using the NEAT (NeuroEvolution of Augmen
 
 <h3>Requirements</h3>
 -Python 3.x
+
 -Pygame
+
 -NEAT (NeuroEvolution of Augmenting Topologies)
+
 - Randon
+  
 - os
   
 <h3>Installation</h3>

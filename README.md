@@ -16,9 +16,9 @@ The artificial intelligence was trained using the NEAT (NeuroEvolution of Augmen
 
 -NEAT (NeuroEvolution of Augmenting Topologies)
 
-- Randon
+-Randon
   
-- os
+-os
   
 <h3>Installation</h3>
 <h4>Clone the repository:</h4>

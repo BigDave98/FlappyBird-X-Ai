@@ -6,7 +6,7 @@ from Bird import Bird
 from Pipes import Pipe
 from Ground import Ground
 
-ai_playing = True
+ai_playing = True #If you want to play this variable have to be False
 generation = 0
 
 # Set the widrh and height of the game screen:

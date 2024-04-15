@@ -92,14 +92,15 @@ def main(genomes, config): #Fitness function
         #Move objects
         for i, bird in enumerate(birds):
             bird.move()
-            #Increas Fitness:
-            genomes_list[i].fitness += 0.1
-            output = nets[i].activate((bird.y,
-                                       abs(bird.y - pipes[pipe_index].height),
-                                       pipes[pipe_index].ground_pos)) # -1 and 1 -> if output > 0.5 bird jumps
+            if ai_playing:
+                #Increas Fitness:
+                genomes_list[i].fitness += 0.1
+                output = nets[i].activate((bird.y,
+                                           abs(bird.y - pipes[pipe_index].height),
+                                           pipes[pipe_index].ground_pos)) # -1 and 1 -> if output > 0.5 bird jumps
 
-            if output[0] > 0.6:
-                bird.jump()
+                if output[0] > 0.6:
+                    bird.jump()
         ground.move()
 
         add_pipe = False
@@ -125,8 +126,9 @@ def main(genomes, config): #Fitness function
         if add_pipe:
             score += 1
             pipes.append(Pipe(600))
-            for genome in genomes_list:
-                genome.fitness += 5
+            if ai_playing:
+                for genome in genomes_list:
+                    genome.fitness += 5
 
         for pipe in remove_pipes:
             pipes.remove(pipe)

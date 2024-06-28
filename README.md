@@ -24,14 +24,14 @@ The artificial intelligence was trained using the NEAT (NeuroEvolution of Augmen
   
 <h3>Installation</h3>
 <h4>Clone the repository:</h4>
-```bash
+
 git clone https://github.com/BigDave98/FlappyBird-X-Ai
-```
+
 
 <h4>Install dependencies:</h4>
-    ```bash
+    
     pip install -r requirements.txt
-    ```
+   
 
 <h3>Running the Game</h3>
 <h4>Run the flappy_bird.py file:<h4>

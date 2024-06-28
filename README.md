@@ -29,9 +29,9 @@ git clone https://github.com/BigDave98/FlappyBird-X-Ai
 ```
 
 <h4>Install dependencies:</h4>
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 <h3>Running the Game</h3>
 <h4>Run the flappy_bird.py file:<h4>

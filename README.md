@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FlappyBird-X-Ai
 =======
 <h1>Flappy Bird AI<h1>
